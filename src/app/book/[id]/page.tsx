@@ -19,7 +19,7 @@ export default async function BookDetail({ params }: { params: { id: string } })
             width={200}
             height={300}
             src={book.image}
-            // alt={book.title}
+            // alt={book.title} // commented to show the missing image.
           />
           <div>Author: {book.author}</div>
           <p>Description</p>
